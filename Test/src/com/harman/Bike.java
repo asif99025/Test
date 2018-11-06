@@ -6,6 +6,14 @@ public class Bike {
 	private int Modelyear ;
 	private String color;
 	private int cc;
+	private String make;
+	
+	public String getMake() {
+		return make;
+	}
+	public void setMake(String make) {
+		this.make = make;
+	}
 	public String getName() {
 		return name;
 	}
@@ -24,11 +32,12 @@ public class Bike {
 	public void setColor(String color) {
 		this.color = color;
 	}
-	public Bike(String name, int modelyear, String color, int cc) {
+	public Bike(String name, int modelyear, String color, int cc,String make) {
 		this.name = name;
 		Modelyear = modelyear;
 		this.color = color;
 		this.cc = cc;
+		this.make=make;
 	}
 	@Override
 	public String toString() {

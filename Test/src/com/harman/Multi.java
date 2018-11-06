@@ -6,11 +6,11 @@ public class Multi  {
 
 	public static void main(String[] args) {
 
-		Bike b=new Bike("Pulsar",2018,"black",110);	
-		Bike b1=new Bike("FZ",2011,"red",110);	
-		Bike b2=new Bike("Splendor",2012,"white",120);	
-		Bike b3=new Bike("Apache",2019,"yellow",110);	
-		Bike b4=new Bike("DIO",2016,"black",140);	
+		Bike b=new Bike("Pulsar",2018,"black",110,"make");	
+		Bike b1=new Bike("FZ",2011,"red",110,"make");	
+		Bike b2=new Bike("Splendor",2012,"white",120,"make");	
+		Bike b3=new Bike("Apache",2019,"yellow",110,"make");	
+		Bike b4=new Bike("DIO",2016,"black",140,"make");	
 		
 		
 		System.out.println("cc is "+b.getCc());
